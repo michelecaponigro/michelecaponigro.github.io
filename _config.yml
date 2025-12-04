@@ -1,28 +1,24 @@
 # Basic Site Settings
 locale: "en-US"
-# theme: minima  # Scommenta se vuoi tema semplice
 title: "Michele Caponigro – Sito Accademico"
 title_separator: "-"
 name: "Michele Caponigro"
 description: "Portfolio accademico e progetti di ricerca"
 url: "https://michelecaponigro.github.io"
-baseurl: ""
-# repository: "michelecaponigro/academicpages.github.io"  # COMMENTA O RIMUOVI!
-remote_theme: academicpages/academicpages.github.io  # AGGIUNGI QUESTA!
+baseurl: ""  # PER il tuo dominio personale!
+repository: "michelecaponigro/michelecaponigro.github.io"  # IMPORTANTE!
 
 # Site Author (sidebar)
 author:
-  avatar     : "profile.png"          # Puoi sostituire con la tua foto in /files/
+  avatar     : "assets/img/profile.png"  # Aggiungi la tua foto in questa cartella
   name       : "Michele Caponigro"
   bio        : "PhD."
   location   : "Italia"
   employer   : "PhD Università di Bergamo"
   email      : "michelecaponigro @ gmail.com"
   github     : "michelecaponigro"
-
-  # Profili accademici (opzionali)
   googlescholar : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  orcid         : "https://orcid.org/0000-0002-1719-4548
+  orcid      : "https://orcid.org/0000-0002-1719-4548"
 
 # Publication Categories
 publication_category:
@@ -41,9 +37,9 @@ read_more     : "disabled"
 
 # Analytics
 analytics:
-  provider   : "false"
+  provider   : false  # senza virgolette
 
-# Collections (non modificare)
+# Collections
 collections:
   teaching:
     output: true
@@ -58,7 +54,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Defaults (non modificare)
+# Defaults
 defaults:
   - scope:
       path: ""
@@ -115,13 +111,11 @@ sass:
 
 # Output
 permalink: /:categories/:title/
-timezone: Etc/UTC
+timezone: Europe/Rome  # Cambiato in Italia
 
-# Plugins
+# Plugins (SOLO quelli supportati da GitHub Pages)
 plugins:
   - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
+  - jekyll-paginate
