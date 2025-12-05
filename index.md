@@ -2,7 +2,7 @@
 layout: home
 title: "Michele Caponigro"
 excerpt: "PhD Researcher | Università di Bergamo"
-tags: [ricerca, machine learning, AI, data science]
+tags: [Quantum Mechanics, Philosophy of QM]
 ---
 
 ## Benvenuto nel mio sito accademico
@@ -20,3 +20,23 @@ Philosophy of Quantum Mechanics.
 Quantum and Reality, Philosophy of Science.
 
 [Contattami](mailto:michelecaponigro @ gmail.com) | [GitHub](https://github.com/michelecaponigro)
+---
+layout: home
+title: "Michele Caponigro"
+---
+
+# Welcome to my Academic Site
+
+## About Me
+PhD Researcher (Bergamo University)
+## Research Interests
+- Quantum Mechanics
+- Philosophy of Physics
+- Interpretations of Quantum Mechanics
+- Quantum and Reality
+
+## Recent Publications
+[See all publications](/publications/)
+
+## Contact
+Email: michelecaponigro @ gmail.com
