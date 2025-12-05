@@ -1,3 +1,11 @@
+header_pages:
+  - about.md
+  - publications.md
+  - talk.html       ← .html NON .md!
+  - teaching.html   ← .html
+  - portfolio.html  ← .html
+  - cv.html         ← .html
+
 # Basic Site Settings
 locale: "en-US"
 title: "Michele Caponigro – Sito Accademico"
