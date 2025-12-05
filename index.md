@@ -35,3 +35,4 @@ Email: michele.caponigro @ gmail.com
 🔬 **ORCID**: [0000-0002-1719-4548](https://orcid.org/0000-0002-1719-4548)  
 📚 **Google Scholar**: [My Profile](https://scholar.google.com/scholar?hl=it&as_sdt=0%2C5&q=michele+caponigro&oq=)  
 💻 **GitHub**: [michelecaponigro](https://github.com/michelecaponigro)
+recent_posts: false
