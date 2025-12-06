@@ -23,5 +23,5 @@ main:
   - title: "CV"
      url: /cv.html 
 
-  # - title: "CV"
-  #   url: /cv-json/
+   -title: "CV"
+    url: /cv-json/
