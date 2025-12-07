@@ -165,6 +165,13 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed
+  
+  # Site Settings
+breadcrumbs   : false
+words_per_minute: 160
+future        : true
+read_more     : "disabled"
+recent_posts  : false
 
 # Output
 permalink: /:categories/:title/
