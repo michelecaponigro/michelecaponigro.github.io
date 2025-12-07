@@ -86,12 +86,6 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
-# Site Settings
-breadcrumbs   : false
-words_per_minute: 160
-future        : true
-read_more     : "disabled"
-
 # Analytics
 analytics:
   provider   : false  # senza virgolette
