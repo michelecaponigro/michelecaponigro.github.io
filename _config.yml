@@ -1,83 +1,82 @@
-# Jekyll Configuration
-theme: minima
-header_pages:
-  - about.html
-  - publications.html
-  - talks.html
-  - teaching.html
-  - portfolio.html
-  - cv
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
 
 # Basic Site Settings
-locale: "en-US"
-title: "Michele Caponigro – Sito Accademico"
-title_separator: "-"
-name: "Michele Caponigro"
-description: "Portfolio accademico e progetti di ricerca"
-url: "https://michelecaponigro.github.io"
-baseurl: ""
-repository: "michelecaponigro/michelecaponigro.github.io"
+locale                   : "en-US"
+site_theme               : "default"
+title                    : "Michele Caponigro – Academic Portfolio"
+title_separator          : "-"
+name                     : "Michele Caponigro"
+description              : "Academic researcher and PhD candidate at University of Bergamo"
+url                      : "https://michelecaponigro.github.io"
+baseurl                  : ""
+repository               : "michelecaponigro/michelecaponigro.github.io"
 
-# Collections
-collections:
-  talks:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  teaching:
-    output: true
-  portfolio:
-    output: true
-
-# Site Author (sidebar)
+# Site Author
 author:
-  avatar: "assets/img/profile.png"
-  name: "Michele Caponigro"
-  bio: "PhD."
-  location: "Italia"
-  employer: "PhD Università di Bergamo"
-  email: "michelecaponigro@gmail.com"
-  github: "michelecaponigro"
-  googlescholar: "https://scholar.google.com/citations?user=TUO_ID_REALE"
-  orcid: "https://orcid.org/0000-0002-1719-4548"
+  # Biographic information
+  avatar           : "profile.png"
+  name             : "Michele Caponigro"
+  pronouns         : 
+  bio              : "PhD researcher at University of Bergamo"
+  location         : "Bergamo, Italy"
+  employer         : "University of Bergamo"
+  uri              : "https://michelecaponigro.github.io"
+  email            : "michelecaponigro@gmail.com"
 
-# ... resto delle tue configurazioni esistenti ...
+  # Academic websites
+  academia         : 
+  arxiv            : 
+  googlescholar    : "https://scholar.google.com/scholar?hl=it&as_sdt=0%2C5&q=michele+caponigro&btnG="
+  inspire-hep      : 
+  impactstory      : 
+  orcid            : "https://orcid.org/0000-0002-1719-4548"
+  semantic         : 
+  ssrn             : 
+  pubmed           : 
+  researchgate     : 
+  scopus           : 
+  zotero           : 
 
-# ... resto del file ...
-locale: "en-US"
-title: "Michele Caponigro – Sito Accademico"
-title_separator: "-"
-name: "Michele Caponigro"
-description: "Portfolio accademico e progetti di ricerca"
-url: "https://michelecaponigro.github.io"
-baseurl: ""
-repository: "michelecaponigro/michelecaponigro.github.io"
+  # Repositories and software development
+  bitbucket        : 
+  codepen          : 
+  dribbble         : 
+  github           : "michelecaponigro"
+  gitlab           : "michele.caponigro"  # AGGIUNTO
+  kaggle           : 
+  stackoverflow    : 
 
-# Basic Site Settings
-locale: "en-US"
-title: "Michele Caponigro – Sito Accademico"
-title_separator: "-"
-name: "Michele Caponigro"
-description: "Portfolio accademico e progetti di ricerca"
-url: "https://michelecaponigro.github.io"
-baseurl: ""  # PER il tuo dominio personale!
-repository: "michelecaponigro/michelecaponigro.github.io"  # IMPORTANTE!
+  # Social media
+  artstation       : 
+  bluesky          : 
+  facebook         : 
+  flickr           : 
+  foursquare       : 
+  goodreads        : 
+  google_plus      : 
+  keybase          : 
+  instagram        : 
+  lastfm           : 
+  linkedin         : 
+  mastodon         : 
+  medium           : 
+  pinterest        : 
+  soundcloud       : 
+  steam            : 
+  telegram         : 
+  tumblr           : 
+  twitter          : 
+  vine             : 
+  weibo            : 
+  wikipedia        : 
+  xing             : 
+  youtube          : 
+  zhihu            : 
 
-# Site Author (sidebar)
-author:
-  avatar     : "assets/img/profile.png"  # Aggiungi la tua foto in questa cartella
-  name       : "Michele Caponigro"
-  bio        : "PhD."
-  location   : "Italia"
-  employer   : "PhD Università di Bergamo"
-  email      : "michelecaponigro @ gmail.com"
-  github     : "michelecaponigro"
-  googlescholar : "https://scholar.google.com/scholar?hl=it&as_sdt=0%2C5&q=michele+caponigro&btnG="
-  orcid      : "https://orcid.org/0000-0002-1719-4548"
-
-# Publication Categories
+# Publication Category
 publication_category:
   books:
     title: 'Books'
@@ -86,9 +85,124 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
+# Site Settings
+teaser                   : 
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+comments:
+  provider               : 
+  disqus:
+    shortname            :
+  discourse:
+    server               : 
+  facebook:
+    appid                :
+    num_posts            : 
+    colorscheme          : 
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601"
+atom_feed:
+  hide                   : false
+  path                   : 
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               : 
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : 
+og_description           : 
+social:
+  type                   : 
+  name                   : 
+  links: 
+
 # Analytics
 analytics:
-  provider   : false  # senza virgolette
+  provider               : "false"
+  google:
+    tracking_id          :
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 # Collections
 collections:
@@ -107,6 +221,7 @@ collections:
 
 # Defaults
 defaults:
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -117,12 +232,14 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+  # _teaching
   - scope:
       path: ""
       type: teaching
@@ -131,6 +248,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _publications
   - scope:
       path: ""
       type: publications
@@ -139,6 +257,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -147,6 +266,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _talks
   - scope:
       path: ""
       type: talks
@@ -159,21 +279,38 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed
-  
-  # Site Settings
-breadcrumbs   : false
-words_per_minute: 160
-future        : true
-read_more     : "disabled"
-recent_posts  : false
 
-# Output
+# Outputting
 permalink: /:categories/:title/
-timezone: Europe/Rome  # Cambiato in Italia
+timezone: "Europe/Rome"
 
-# Plugins (SOLO quelli supportati da GitHub Pages)
+# Plugins
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
