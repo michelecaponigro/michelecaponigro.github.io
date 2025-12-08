@@ -2,6 +2,14 @@
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
+# Forza il menu principale a mostrare SOLO queste voci
+header_pages:
+  - index.md
+  - publications.md
+  - talks.md
+  - teaching.md
+  - portfolio.md
+  - cv.md
 
 # Basic Site Settings
 locale                   : "en-US"
