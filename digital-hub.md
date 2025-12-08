@@ -22,6 +22,7 @@ Below you can find all my academic and professional profiles:
 
 [Back to Home]({{ site.baseurl }}/)
 
+<pre style="background: transparent; border: none; padding: 0; margin: 0; font-family: monospace; white-space: pre;">
 │
 ├── 1. MATHEMATICAL STRUCTURE
 │   ├── Hilbert Space Formalism
@@ -159,3 +160,4 @@ Below you can find all my academic and professional profiles:
         ├── Information-theoretic foundations
         ├── Quantum thermodynamics foundations
         └── Experimental metaphysics: Testing foundations
+    <pre>
