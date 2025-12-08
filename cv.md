@@ -10,18 +10,18 @@ permalink: /cv/
 Michele Caponigro, PhD
 Ishtar-University of Bergamo-                                                                                          
 
-3) Ph.D. University of Bergamo: Intercultural H. Studies (Philosophy of Science)
-2) Ph.D. University of Bergamo: A. Epistemology of Complexity
-1) Ph.D  (Physics) University of Camerino
+3) Ph.D. University of Bergamo: Intercultural H. Studies (Philosophy of Science)<br>
+2) Ph.D. University of Bergamo: A. Epistemology of Complexity<br>
+1) Ph.D  (Physics) University of Camerino<br>
 M.D. (Physics) University of Turin
 
-e-mail1: michele.caponigro[at]unibg.it
+e-mail1: michele.caponigro[at]unibg.it<br>
 e-mail2: michele.caponigro[at]gmail.com
 
 Interests:
 
-Philosophy of Physics, Interpretations of Quantum Mechanics.
-Philosophy of Quantum Mechanics.
+Philosophy of Physics, Interpretations of Quantum Mechanics.<br>
+Philosophy of Quantum Mechanics.<br>
 Quantum and Reality, Philosophy of Science.
 
 
