@@ -7,7 +7,7 @@ main:
     url: /teaching/
   - title: "Portfolio"
     url: /portfolio/
-    - title: "Digital Hub"
-    url: /digital-hub/
   - title: "CV"
     url: /cv/
+  - title: "Digital Hub"    # <-- AGGIUNGI QUESTA RIGA
+    url: /digital-hub/     # <-- E QUESTA
