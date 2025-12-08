@@ -27,12 +27,9 @@ Quantum and Reality, Philosophy of Science.
 ## Esperienza professionale
 
 
-**Junior Developer – Azienda ABC**  
 
 ## Istruzione
   
-
-**Laurea Triennale in Informatica – Università degli Studi di Milano**  
 
 
 ## Competenze
