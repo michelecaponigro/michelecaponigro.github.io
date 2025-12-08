@@ -171,6 +171,19 @@ Below you can find all my academic and professional profiles:
         ├── Quantum thermodynamics foundations
         └── Experimental metaphysics: Testing foundations
 </pre>
+
+<pre style="
+    font-family: 'Courier New', Consolas, monospace;
+    white-space: pre;
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    line-height: 1.4;
+    border: 1px solid #333;
+    font-size: 14px;
+">
 - 1. MATHEMATICAL STRUCTURE
   - Hilbert Space Formalism
     - State Space: ℋ (complete inner product space)
@@ -231,3 +244,4 @@ plaintext
     - Copenhagen: Irreducible randomness
     - Deterministic alternatives (Bohm, MWI)
 ```
+</pre>
