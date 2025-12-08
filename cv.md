@@ -32,7 +32,7 @@ Quantum and Reality, Philosophy of Science.
 ## Dati personali / Personal Information
 **Nome / Name:** MC 
 **Email:** mc@email.com  
-**Telefono / Phone:** +39 333 1234567  
+**Telefono / Phone:** +39 XXXXXXXX  
 **LinkedIn:** [link](https://www.linkedin.com/in/mc)  
 **GitHub:** [link](https://github.com/mc)  
 **GitLab:** [link](https://gitlab.com/mc)  
