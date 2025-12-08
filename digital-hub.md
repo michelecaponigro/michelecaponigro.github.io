@@ -22,8 +22,7 @@ Below you can find all my academic and professional profiles:
 
 [Back to Home]({{ site.baseurl }}/)
 
-
-│
+```plaintext
 ├── 1. MATHEMATICAL STRUCTURE
 │   ├── Hilbert Space Formalism
 │   │   ├── State Space: ℋ (complete inner product space)
@@ -160,4 +159,64 @@ Below you can find all my academic and professional profiles:
         ├── Information-theoretic foundations
         ├── Quantum thermodynamics foundations
         └── Experimental metaphysics: Testing foundations
- 
+
+- 1. MATHEMATICAL STRUCTURE
+  - Hilbert Space Formalism
+    - State Space: ℋ (complete inner product space)
+    - State Vector: |ψ⟩ ∈ ℋ, ⟨ψ|ψ⟩ = 1
+    - Wavefunction: ψ(x) = ⟨x|ψ⟩ ∈ L²(ℝ³)
+  - Observables & Operators
+    - Self-adjoint operators: Â† = Â
+    - Spectral theorem: Â = ∫ a dE(a)
+    - Canonical commutation: [x̂ᵢ, p̂ⱼ] = iℏδᵢⱼ
+  - Dynamics
+    - Schrödinger equation: iℏ ∂/∂t|ψ(t)⟩ = Ĥ|ψ(t)⟩
+    - Unitary evolution: Û(t) = exp(-iĤt/ℏ)
+    - Heisenberg picture: dÂ/dt = (i/ℏ)[Ĥ, Â]
+  - Measurement
+    - Projection postulate: |ψ⟩ → Pₖ|ψ⟩/√⟨ψ|Pₖ|ψ⟩
+    - Probability: P(k) = ⟨ψ|Pₖ|ψ⟩
+    - Lüders rule: Generalization for degenerate spectra
+plaintext
+- 2. PHILOSOPHICAL FOUNDATIONS
+  - The Measurement Problem
+    - Wigner's friend: Chain of measurements
+    - Von Neumann cut: System vs apparatus boundary
+    - Basis problem: Preferred basis selection
+  - Interpretations
+    - Copenhagen Interpretation
+      - Bohr: Complementarity principle
+      - Heisenberg: Potentiality → actuality
+      - Role: Operational, no ontology
+    - Many-Worlds Interpretation (Everett)
+      - Universal wavefunction: |Ψ⟩ = Σ cᵢ|ψᵢ⟩|Aᵢ⟩
+      - Branching: Unitary evolution only
+      - Probability problem: Born rule derivation
+    - de Broglie-Bohm Theory
+      - Pilot wave: ψ guides particle
+      - Configuration space: ℝ³ᴺ for N particles
+      - Non-locality: Explicit in dynamics
+    - Quantum Logic
+      - Birkhoff-von Neumann: Orthomodular lattice
+      - Propositions: Closed subspaces of ℋ
+      - Non-distributive: P∧(Q∨R) ≠ (P∧Q)∨(P∧R)
+    - Modal Interpretations
+      - Actualization of properties
+      - Core and possessed properties
+      - Kochen-Specker theorem constraints
+  - Ontological Status
+    - Wavefunction realism: ψ as physical field
+    - ψ-epistemic views: ψ as knowledge
+    - Structural realism: Relations without relata
+    - Information-theoretic: QM about information constraints
+  - Quantum Non-Locality
+    - Bell's theorem: Local hidden variables impossible
+    - CHSH inequality: |S| ≤ 2 classically, ≤ 2√2 quantum
+    - EPR argument: Completeness vs locality trade-off
+    - Relativity conflict: No signaling theorem preserves causality
+  - Quantum Indeterminism
+    - Born rule fundamental vs emergent
+    - Propensity interpretations (Popper)
+    - Copenhagen: Irreducible randomness
+    - Deterministic alternatives (Bohm, MWI)
+```
