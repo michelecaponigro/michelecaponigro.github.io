@@ -41,6 +41,11 @@ Quantum and Reality, Philosophy of Science.
 **Portfolio personale / Personal Portfolio:** [link](https://tuosito.github.io)<br>
 Academic website: https://www.michelecaponigro.it
 
+## Research Methodology & Workflow
+
+My integrated research system employs a structured, transdisciplinary approach:
+
+```
 TRANSDISCIPLINARY RESEARCH
 │
 ├── KNOWLEDGE MANAGEMENT SYSTEM
@@ -157,3 +162,4 @@ TRANSDISCIPLINARY RESEARCH
     ├── Extension of identified patterns
     ├── Proposal of new theoretical frameworks
     └── Repository updates (GitHub/GitLab)
+```
