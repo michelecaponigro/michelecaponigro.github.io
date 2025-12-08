@@ -38,7 +38,7 @@ Quantum and Reality, Philosophy of Science.
 **GitLab:** [link](https://gitlab.com/mc)  
 **ResearchGate:** [link](https://www.researchgate.net/profile/MC)  
 **arXiv:** [link](https://arxiv.org/a/cm)  
-**Portfolio personale / Personal Portfolio:** [link](https://tuosito.github.io)
+**Portfolio personale / Personal Portfolio:** [link](https://tuosito.github.io)<br>
 Academic website: https://www.michelecaponigro.it
 
 
